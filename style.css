@@ -1,0 +1,171 @@
+.firstContainer {
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid purple;
+    border-bottom: 1px solid rgb(234, 231, 231);
+    background-color:#fcfdfe;
+    justify-content: center;
+    flex:1;
+    padding:15px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin:0px;
+    font-family:Helvetica, sans-serif;
+}
+.bar{
+    margin: 0px;
+    padding: 10px;
+    color: #3d3e3f;
+    text-decoration: none;
+}
+.secondContainer {
+    display:flex;
+    flex-direction: row;
+    margin:150px;
+    flex:1;
+    margin-top: 40px;
+    font-family:Helvetica, sans-serif;
+    /*background-color: red;*/
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+
+
+}    
+img {
+    border-radius:50%;
+    height: 200px;
+    width: 200px;
+}
+#left{
+    /*background-color: blue;*/
+    flex:0.6;
+    border-right:1px solid rgb(234, 231, 231);
+    padding-bottom: 300px;
+    text-align: center;
+    padding-top: 0px;
+    
+}
+#right{
+    /*background-color: aqua;*/
+    flex:1.4;
+    margin-left: 40px;
+    padding-bottom: 300px;
+}
+
+.thirdContainer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(234, 231, 231);
+    font-family:Helvetica, sans-serif;
+    flex:1;
+    padding-top: 5px;
+
+
+}
+#skills_table{
+    justify-content: center;
+   
+}
+#list_interest{
+    list-style-type: "- ";
+}
+progress{
+    width: 400px;
+    height: 30px;
+}
+.table{
+    border-spacing: 2px;
+}
+h1 {
+    font-weight:lighter;
+    color: #3d3e3f;
+}
+h2{
+    font-weight:lighter;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.bar{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#head{
+    margin-bottom: 50px;
+}
+.list{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.expe{
+    padding-left: 200px;
+    text-align: right;
+}
+.expe1{
+    padding-left: 235px;
+    text-align: right;
+
+}
+.expe2{
+    padding-left: 285px;
+    text-align: right;
+}
+#last_line{
+    color:#3d3e3f;
+}
+#edu_cre{
+    color:#747679;
+    padding-top: 100px;
+}
+.table2{
+    margin-top: 30px;
+}
+.check{
+    padding-left: 50px;
+}
+@media (max-width:800px) {
+    .secondContainer{
+        flex-direction: column;
+        
+    }
+    #left{
+        border-right: none;
+        border-bottom:1px solid rgb(234, 231, 231);
+        margin-top:0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    #right{
+        padding-top: 0px;
+        padding-bottom: 50px;
+
+    }
+    .table{
+        font-size:xx-small;
+    }
+    .table2{
+        font-size:xx-small;
+    }
+    .expe{
+        padding-left: 100px;
+        text-align: right;
+    }
+    .expe1{
+        padding-left: 120px;
+        text-align: right;
+    
+    }
+    .expe2{
+        padding-left: 145px;
+        text-align: right;}
+    #head{
+        font-size:70;;
+    }
+    .bar{
+        padding-left: 5px;
+    }
+
+
+    
+}
