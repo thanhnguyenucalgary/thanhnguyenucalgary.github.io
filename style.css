@@ -166,7 +166,7 @@ h2{
     .bar{
         padding-left: 5px;
     }
-    #head{padding-left: 70px;}
+    #head{text-align: center;}
     #skills_table{
         padding-left:  -100px;
     }
