@@ -123,7 +123,7 @@ h2{
 .check{
     padding-left: 50px;
 }
-@media (max-width:800px) {
+@media (max-width:600px) {
     .secondContainer{
         flex-direction: column;
         
@@ -135,6 +135,7 @@ h2{
         padding-top: 0px;
         margin-bottom: 20px;
         padding-bottom: 20px;
+        padding-left: 80px;
     }
     #right{
         padding-top: 0px;
@@ -165,7 +166,13 @@ h2{
     .bar{
         padding-left: 5px;
     }
-
+    #head{padding-left: 70px;}
+    #skills_table{
+        padding-left:  -100px;
+    }
+    .secondContainer{
+        margin-left: 50px;
+    }
 
     
 }
